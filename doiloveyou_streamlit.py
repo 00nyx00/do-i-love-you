@@ -5,7 +5,7 @@ st.title("Do I love you?")
 # Ask for input via Streamlit
 name = st.text_input("Who are you? 🧐").casefold().strip()
 
-love = ["marina", "majdi", "su", "gokcesu", "kira", "mama"]
+love = ["marina", "majdi", "su", "gokcesu", "kira", "mama", "edi"]
 nope = ["hitler", "pedophile", "carrie bradshaw", "horia brenciu"]
 
 # Only check once input is given
